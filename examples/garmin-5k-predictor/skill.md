@@ -6,7 +6,7 @@ description: Walk the user end-to-end through building a personal 5K race-time p
 # Garmin 5K Predictor — reproduction skill
 
 You are guiding the user through reproducing the
-[jitm-examples/garmin-5k-predictor](https://github.com/jitm-ai/jitm-examples/tree/main/examples/garmin-5k-predictor)
+[jitm-examples/garmin-5k-predictor](https://github.com/Just-In-Time-Models-JITM-ai/jitm-examples/tree/main/examples/garmin-5k-predictor)
 recipe on their own Garmin Connect data. The goal: a trained JITM.ai model
 that predicts the user's 5K race time from their lifestyle metrics.
 

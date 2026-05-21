@@ -119,9 +119,12 @@ supported path; this script demonstrates the pattern.
 
 ## Caveats and honest notes
 
-- The target (`raceTime5K`) is Garmin's own predicted 5K time, not a race
-  you actually ran. The model is reproducing Garmin's fitness assessment
-  from raw biometrics — useful, but it's a meta-prediction, not ground truth.
+- The training target (`raceTime5K`) was originally shaped by your
+  historical running activities. That's what calibrated the model.
+  From this point onwards, every prediction rests purely on your
+  underlying health metrics: sleep, resting heart rate, HRV, daily
+  activity. Once trained, you don't need to run to get a forecast.
+  The lifestyle physiology does the work.
 - A heavier 89-feature version of this model hits MAE ~22 seconds, but a
   chunk of its accuracy comes from "which Garmin metrics existed yet"
   acting as a time-of-day proxy. The lean 12-feature version is the honest
