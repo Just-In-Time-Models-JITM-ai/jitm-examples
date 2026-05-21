@@ -1,0 +1,4 @@
+totalSteps,moderateIntensityMinutes,vigorousIntensityMinutes,floorsAscendedInMeters,totalDistanceMeters,restingHeartRate,minHeartRate,maxHeartRate,hrvWeeklyAverage,deepSleepSeconds,lightSleepSeconds,remSleepSeconds,awakeSleepSeconds,avgSleepStress,averageRespiration,bmrKilocalories,wellnessTotalKilocalories,raceTime5K_minutes
+8421,12,18,30.5,6234,52,44,168,68,4320,15300,5400,1200,18,14.2,1812,2540,22.95
+9837,8,4,21.0,7102,55,46,142,71,3780,16800,4920,900,21,14.5,1820,2410,23.40
+7204,22,30,42.0,5188,49,42,178,66,4980,14760,6120,1080,16,13.8,1808,2680,21.83
